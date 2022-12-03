@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <title>Evento onclick</title>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav>
+        <div class ="text-nav">
+            <p>Dojonary</p>
+        </div>
+        <div class="busqueda">
+            <input type="search" name="busquedas" placeholder="Buscar...">
+        </div>
+        <div class ="login">
+            <button onclick="turnOff(this)">Login</button>
+        </div>
+        
+    </nav>
+
+    <!-- Contenedor principal -->
+    <main>
+        <!-- Bloque izquierdo arriba-->
+        <div class="izquierda">
+            <div class="bloque-izquierda-1">
+                <div class="bloque-izquierdo-1-inf">
+                        <h1>ninja</h1><br>
+                        <h2>noun</h2><br>
+                        <p>Plural :ninjas</p>
+                        
+                        <div class="button-likes-13">
+                        <!-- Habilitamos alerta en button -->
+                        <button onclick="alert('This page says\nNinja was liked')">13 likes</button>
+                        </div>
+                </div>
+
+                <div class="bloque-izquierdo-2-inf">
+                
+                    <p>A practitioner skilled in the</p>
+                    <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>   
+                </div>
+            </div>
+        <!-- Bloque izquierdo abajo -->
+            <div class="bloque-izquierda-abajo">
+                <div class="bloque-izquierdo-abajo-1-inf">
+                    <h1>ninja</h1><br>
+                    <h2>noun</h2><br>
+                    <p>Plural :ninjas</p>
+                    
+                    <div class="button-likes-37">
+                        <!-- Habilitamos alerta en button -->
+                        <button onclick="alert('This page says\nNinja was liked')">13 likes</button>
+                    </div>
+                </div>
+
+                <div class="bloque-izquierdo-abajo-2-inf">
+                
+                    <p>A <a href="#">programmer</a> who breaks</p>
+                    <p>down problems with <a href="#">zen</a>-like</p>
+                    <p>focus</p>   
+                
+                
+                </div>
+            </div>
+        </div>
+
+        <!-- Bloque derecha -->
+        <div class="derecha">
+            <div class="bloque-derecha-1">
+                <div class = "bloque-derecha-1-inf">
+                    <p>Dojonary is <br>
+                        definet by YOU</p>
+                        <div class="button-add">
+                            <!-- Eliminamos button al hacer click-->
+                            <button onclick="removeButton(this)">Add Definition</button>
+                        </div>
+                        
+                </div>
+            </div>
+        </div>
+    </main>
+     <!-- Llamamos al archivo js -->
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>

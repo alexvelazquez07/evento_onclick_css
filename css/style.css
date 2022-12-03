@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+}
+
+/* Barra de navegación */
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 130px;
+    background-color: grey;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 18px;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+
+
+.text-nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold
+}
+
+li{
+    margin-right: 20px;
+}
+
+.login button{
+    background-color: #307ce4;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 4px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.izquierda{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.bloque-izquierda-1{
+    display:flex;
+    border: 4px solid grey;
+    margin-bottom: 30px;
+    width: 550px;
+    height: 250px;
+}
+.bloque-izquierda-abajo{
+    display:flex;
+    border: 4px solid grey;
+    margin-bottom: 30px;
+    width: 550px;
+    height: 250px;
+}
+
+
+.bloque-izquierdo-1-inf{
+    margin: auto;
+}
+
+.bloque-izquierdo-2-inf{
+    margin: auto;
+
+}    
+
+.bloque-izquierdo-abajo-1-inf{
+    margin: auto;
+}
+
+.bloque-izquierdo-abajo-2-inf{
+    margin: auto;
+
+}  
+
+.derecha{
+    text-align: center;  
+
+}
+.bloque-derecha-1{
+    border: 4px solid grey;
+    margin-bottom: 30px;
+    width: 305px;
+    height: 190px;
+}
+
+.bloque-derecha-1-inf{
+    /* display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    font-size: 30px;
+    align-items: center; */
+
+}
+
+.pin, .gear{
+    height: 20px;
+    margin-right: 10px;
+}
+
+.button-likes-13 button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgb(250, 192, 0);
+    border: none;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 9px 9px 2px #999;
+}
+.button-likes-37 button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgb(250, 192, 0);
+    border: none;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 9px 9px 2px #999;
+}
+
+.button-add button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    background-color: green;
+    border: none;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 9px 9px 2px #999;
+}
+
+
+a{
+    color: #307ce4;
+}
+
+
+/* Main */
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 0 300px;
+    gap: 50px;
+}
+
+/* Header de todos los contenedores*/
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(35, 35, 35);
+    align-items: center;
+}
+
+h4{
+    color: white;
+    padding: 15px 30px;
+}
+
+.bloque-izquierda-abajo{
+    border: 4px solid grey;
+}
+
+
